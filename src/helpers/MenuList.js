@@ -1,39 +1,39 @@
-import pepperoni from "../assets/pepperoni.jpg";
-import Margherita from "../assets/margherita.jpg";
-import PedroTechSpecial from "../assets/pedrotechspecial.jpg";
-import Vegan from "../assets/vegan.jpg";
-import Pineapple from "../assets/pineapple.jpg";
-import Expensive from "../assets/expensive.jpg";
+import nike001 from "../assets/nike001.jpg";
+import nike002 from "../assets/nike002.jpg";
+import nike003 from "../assets/nike003.jpg";
+import nike004 from "../assets/nike004.jpg";
+import nike005 from "../assets/nike005.jpg";
+import nike006 from "../assets/nike006.jpg";
 
 export const MenuList = [
   {
     name: "Nike001",
-    image: pepperoni,
+    image: nike001,
     price: 15.99,
   },
   {
     name: "Nike002",
-    image: Margherita,
+    image: nike002,
     price: 11.99,
   },
   {
     name: "Nike003",
-    image: PedroTechSpecial,
+    image: nike003,
     price: 256.53,
   },
   {
     name: "Nike004",
-    image: Vegan,
+    image: nike004,
     price: 17.99,
   },
   {
     name: "Nike005",
-    image: Pineapple,
+    image: nike005,
     price: 4.99,
   },
   {
     name: "Nike006",
-    image: Expensive,
+    image: nike006,
     price: 1997.99,
   },
 ];
