@@ -22,9 +22,9 @@ ShoeApp is a simple React application that showcases a collection of shoes. This
 ## Technologies
 
 - React
-- React Router
+- javascript
 - CSS
-- Create React App
+- html
 
 ## Installation
 
