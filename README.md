@@ -1,31 +1,38 @@
-ShoeApp
+# ShoeApp
+
 ShoeApp is a simple React application that showcases a collection of shoes. This project was bootstrapped with Create React App.
 
-Table of Contents
-Features
-Technologies
-Installation
-Usage
-Available Scripts
-Learn More
-Contributing
-License
-Features
-View a list of shoes with images and prices
-Navigate through different pages (Home, About, Contact, Menu)
-Responsive design
-Technologies
-React
-React Router
-CSS
-Create React App
-Installation
-Clone the repository:
+## Table of Contents
 
-bash
-Copy code
-git clone https://github.com/HamO001/ShoeApp.git
-cd ShoeApp
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Available Scripts](#available-scripts)
+- [Learn More](#learn-more)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- View a list of shoes with images and prices
+- Navigate through different pages (Home, About, Contact, Menu)
+- Responsive design
+
+## Technologies
+
+- React
+- React Router
+- CSS
+- Create React App
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/HamO001/ShoeApp.git
+   cd ShoeApp
 Install the dependencies:
 
 bash
@@ -80,6 +87,3 @@ Deployment
 Troubleshooting npm run build fails to minify
 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-License
-This project is licensed under the MIT License.
