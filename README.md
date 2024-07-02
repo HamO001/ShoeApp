@@ -27,12 +27,12 @@ ShoeApp is a simple React application that showcases a collection of shoes. This
 - html
 
 ## Installation
+Clone the repository:
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/HamO001/ShoeApp.git
-   cd ShoeApp
+bash
+Copy code
+git clone https://github.com/HamO001/ShoeApp.git
+cd ShoeApp
 Install the dependencies:
 
 bash
@@ -87,3 +87,4 @@ Deployment
 Troubleshooting npm run build fails to minify
 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
+
