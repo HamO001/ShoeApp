@@ -47,14 +47,12 @@ ShoeApp is a simple React application that showcases a collection of shoes. This
 
 ## Run tests:
 
-   ```bash
-   npm test
+- npm test
 
 - Launches the test runner in the interactive watch mode. See the section about running tests for more information.
 
 ## Build for production:
 
-   ```bash
    npm run build
    
 - Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified, and the filenames include the hashes. Your app is ready to be deployed!
