@@ -39,15 +39,14 @@ ShoeApp is a simple React application that showcases a collection of shoes. This
 ## usage
 
 - Start the development server:
-
-   ```bash  
+  
    npm start
 
 - Open http://localhost:3000 to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
 ## Run tests:
 
-- npm test
+   npm test
 
 - Launches the test runner in the interactive watch mode. See the section about running tests for more information.
 
@@ -63,7 +62,6 @@ ShoeApp is a simple React application that showcases a collection of shoes. This
 - 'npm start'
 - 'npm test'
 - 'npm run build'
-- 'npm run eject'
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
