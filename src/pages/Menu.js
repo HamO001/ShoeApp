@@ -1,26 +1,21 @@
-import React from "react";
-import { MenuList } from "../helpers/MenuList";
-import MenuItem from "../components/MenuItem";
-import "../styles/Menu.css";
+import React from 'react';
+import MenuItem from '../components/MenuItem';
 
-function Menu() {
+const Menu = () => {
   return (
-    <div className="menu">
-      <h1 className="menuTitle">Our Menu</h1>
-      <div className="menuList">
-        {MenuList.map((menuItem, key) => {
-          return (
-            <MenuItem
-              key={key}
-              image={menuItem.image}
-              name={menuItem.name}
-              price={menuItem.price}
-            />
-          );
-        })}
+    <div>
+      <h1>Menu</h1>
+      <div className="menu-list">
+        <MenuItem id={1} />
+        <MenuItem id={2} />
+        <MenuItem id={3} />
+        <MenuItem id={4} />
+        <MenuItem id={5} />
+        <MenuItem id={6} />
+        {/* Add more MenuItem components with different ids as needed */}
       </div>
     </div>
   );
-}
+};
 
 export default Menu;
