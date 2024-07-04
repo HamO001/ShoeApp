@@ -1,0 +1,42 @@
+{
+"shoes": [
+    {
+        "id": 1,
+        "name": "Nike 001",
+        "image": "./assets/nike001.jpg",
+        "price": 1500
+    },
+    {
+        "id": 2,
+        "name": "Nike 002",
+        "image": "./assets/nike002.jpg",
+        "price": 1700
+    },
+    {
+        "id": 3,
+        "name": "Nike 003",
+        "image": "./assets/nike003.jpg",
+        "price": 5500
+    },
+    {
+        "id": 4,
+        "name": "Nike 004",
+        "image": "./assets/nike004.jpg",
+        "price": 500
+    },
+    {
+        "id": 5,
+        "name": "Nike 005",
+        "image": "./assets/nike005.jpg",
+        "price": 3500
+    },
+    {
+        "id": 6,
+        "name": "Nike 006",
+        "image": "./assets/nike006.jpg",
+        "price": 2500
+    }
+
+]
+
+}
