@@ -1,8 +1,8 @@
 [
-  { "id": 1, "name": "Nike001", "image": "nike001.jpg", "price": 15.99 },
-  { "id": 2, "name": "Nike002", "image": "nike002.jpg", "price": 11.99 },
-  { "id": 3, "name": "Nike003", "image": "nike003.jpg", "price": 256.53 },
-  { "id": 4, "name": "Nike004", "image": "nike004.jpg", "price": 17.99 },
-  { "id": 5, "name": "Nike005", "image": "nike005.jpg", "price": 4.99 },
-  { "id": 6, "name": "Nike006", "image": "nike006.jpg", "price": 1997.99 }
+  { "id": 1, "name": "Nike001", "image": "nike001.jpg", "price": 250 },
+  { "id": 2, "name": "Nike002", "image": "nike002.jpg", "price": 300 },
+  { "id": 3, "name": "Nike003", "image": "nike003.jpg", "price": 256 },
+  { "id": 4, "name": "Nike004", "image": "nike004.jpg", "price": 170 },
+  { "id": 5, "name": "Nike005", "image": "nike005.jpg", "price": 499 },
+  { "id": 6, "name": "Nike006", "image": "nike006.jpg", "price": 1650 }
 ]

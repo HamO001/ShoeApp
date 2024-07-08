@@ -26,8 +26,18 @@ const MenuItem = ({ id }) => {
   }
 
   return (
-    <div className="menu-item">
-      <img src={`http://localhost:3004/assets/${menuItem.image}`} alt={menuItem.name} />
+    <div className="menuItem">
+      <img 
+        src={`http://localhost:3004/assets/${menuItem.image}`} 
+        alt={menuItem.name} 
+        style={{
+          width: '100%', 
+          height: '200px', 
+          objectFit: 'cover', 
+          borderTopLeftRadius: '15px',
+          borderTopRightRadius: '15px'
+        }} 
+      />
       <div>
         <h2>{menuItem.name}</h2>
         <p>${menuItem.price.toFixed(2)}</p>
@@ -37,3 +47,4 @@ const MenuItem = ({ id }) => {
 };
 
 export default MenuItem;
+
