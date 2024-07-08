@@ -42,9 +42,9 @@
 .menuItem img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  height: auto; /* Maintain aspect ratio */
-  max-width: 150px; /* Optional: constrain max width */
-  object-fit: contain; /* Maintain aspect ratio while filling the space */
+  height: auto;
+  width: 100px; /* Optional: constrain max width */
+  object-fit: cover; /* Maintain aspect ratio while filling the space */
 }
 
 /* Text styling */
