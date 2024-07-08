@@ -1,18 +1,15 @@
 import React from 'react';
 import MenuItem from '../components/MenuItem';
+import '../styles/Menu.css';
 
 const Menu = () => {
   return (
-    <div>
-      <h1>Menu</h1>
-      <div className="menu-list">
-        <MenuItem id={1} />
-        <MenuItem id={2} />
-        <MenuItem id={3} />
-        <MenuItem id={4} />
-        <MenuItem id={5} />
-        <MenuItem id={6} />
-        {/* Add more MenuItem components with different ids as needed */}
+    <div className="menu">
+      <h1 className="menuTitle">Menu</h1>
+      <div className="menuList">
+        {[1, 2, 3, 4, 5, 6].map(id => (
+          <MenuItem key={id} id={id} />
+        ))}
       </div>
     </div>
   );

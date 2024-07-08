@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../styles/Menu.css';
 
 const MenuItem = ({ id }) => {
   const [menuItem, setMenuItem] = useState(null);
@@ -26,10 +27,10 @@ const MenuItem = ({ id }) => {
 
   return (
     <div className="menu-item">
-      <img src={menuItem.image} alt={menuItem.name} />
+      <img src={`http://localhost:3004/assets/${menuItem.image}`} alt={menuItem.name} />
       <div>
         <h2>{menuItem.name}</h2>
-        <p>${menuItem.price.toFixed(2)}</p> {/* Adjust formatting as needed */}
+        <p>${menuItem.price.toFixed(2)}</p>
       </div>
     </div>
   );
