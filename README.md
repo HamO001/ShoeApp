@@ -19,8 +19,7 @@ ShoeApp is a simple React application that showcases a collection of shoes. This
 
 ## Technologies
 
-- React
-- javascript
+- Reactjs
 - CSS
 - html
 
@@ -35,6 +34,15 @@ ShoeApp is a simple React application that showcases a collection of shoes. This
 
 - npm install node js $ npm
 
+#### Start the Node Server
+
+1. In the project root directory, run:
+    ```bash
+    node server.js
+    ```
+
+   This will start the Node server and make the API available at `http://localhost:3004`.
+
 
 ## usage
 
@@ -44,6 +52,8 @@ ShoeApp is a simple React application that showcases a collection of shoes. This
    npm start
 
 - Open http://localhost:3000 to view it in the browser. 
+
+
 
 ## Run tests
 
